@@ -83,7 +83,7 @@ void solve()
 {
     int n,i;
     cin >> n;
-    cout << ((res[n] - 1) * n) / 2 + n << endl;
+    cout << (((res[n] + 1) / 2) * n) - n << endl;
 }
  
 int32_t main()
