@@ -49,9 +49,9 @@ template <class T> void _print(vector <T> v) {cerr << "[ "; for (T i : v) {_prin
 template <class T> void _print(set <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
 template <class T> void _print(multiset <T> v) {cerr << "[ "; for (T i : v) {_print(i); cerr << " ";} cerr << "]";}
 template <class T, class V> void _print(map <T, V> v) {cerr << "[ "; for (auto i : v) {_print(i); cerr << " ";} cerr << "]";}
-
+ 
 int res[1000005],phi[1000005];
-
+ 
 void sieve()
 {
     int mx = 1e6+1,i,j;
@@ -78,7 +78,7 @@ void sieve()
         }
     }
 }
-
+ 
 void solve()
 {
     int n,i;
@@ -91,7 +91,7 @@ int32_t main()
     ios_base::sync_with_stdio(0);
     cin.tie(0);
     cout.tie(0);
-
+ 
     sieve(); 
     int t;
     cin >> t;
@@ -103,4 +103,4 @@ int32_t main()
 /**
 Test Case :
  
-**/
+**/ 
